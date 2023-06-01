@@ -1,6 +1,6 @@
 # EZBOWLS
 
-## Use
+## How To Use
 
 Eat some mushroom stew, or rabbit stew, or beet soup.
 
