@@ -26,5 +26,9 @@ public class ezBowls implements ModInitializer {
 		// Proceed with mild caution.
 
 		LOGGER.info("Your soup bowls stack on their own!");
+		assert CUSTOM_ITEM != null;
+		// IDEA was really upset that i didn't use this
+		// so i "used" it
+
 	}
 }
