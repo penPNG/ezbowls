@@ -6,4 +6,4 @@ Eat some mushroom stew, or rabbit stew, or beet soup.
 
 ## License
 
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
+ezbowls is licensed under the CC0 license. Feel free to use it.
