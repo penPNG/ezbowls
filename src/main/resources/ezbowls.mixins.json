@@ -6,9 +6,6 @@
   "mixins": [
     "StewStuffDoer"
   ],
-  "client": [
-    "ExampleMixin"
-  ],
   "injectors": {
     "defaultRequire": 1
   }
