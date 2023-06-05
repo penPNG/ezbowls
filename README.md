@@ -3,8 +3,9 @@
 <p align="center">
   <img src="./src/main/resources/assets/ezbowls/icon.png" width=200>
 </p>
-
+<p align="center">
 MOD NEEDS TO BE INSTALLED SERVERSIDE TO FUNCTION
+</p>
 
 ---
 
