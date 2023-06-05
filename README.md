@@ -4,6 +4,8 @@
   <img src="./src/main/resources/assets/ezbowls/icon.png" width=200>
 </p>
 
+MOD NEEDS TO BE INSTALLED SERVERSIDE TO FUNCTION
+
 ---
 
 When you eat a stew or soup in game, the empty bowl will be automatically moved to a stack of bowls somewhere else in your inventory.
