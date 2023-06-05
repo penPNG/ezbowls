@@ -1,12 +1,17 @@
 # EZBOWLS
 
-## What This Mod Does
+<p align="center">
+  <img src="https://github.com/penPNG/ezbowls/blob/1.19.2/src/main/resources/assets/ezbowls/icon.png" width=200>
+</p>
+
 
 When you eat a stew or soup in game, the empty bowl will be automatically moved to a stack of bowls somewhere else in your inventory.
 If you eat a stew or soup and there isn't already an available stack of bowls in your inventory, the new empty bowl will try to go into 
 either the end of yourtool bar, the top right of youe inventory, or the last empty inventory space available in that order.
-![image](https://github.com/penPNG/ezbowls/assets/78943163/0b2c83a2-07d3-49a0-b7ec-b17ab81b3cc5)
-
+<p align="center">
+  <img src="https://github.com/penPNG/ezbowls/blob/1.19.2/image.png" width=720>
+</p>
+  
 ## How To Use
 
 Eat some mushroom stew, or rabbit stew, or beet soup.
