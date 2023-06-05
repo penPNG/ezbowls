@@ -36,12 +36,13 @@ public class StewStuffDoer extends Item {
 
     // puts a bowl in one of a few predetermined empty slots or the last empty one
     public int getLastEmptySlot(PlayerInventory inventory) {
-        if(inventory.getStack(8).isEmpty()) return 8; // returns even if the current selected stew/soup is in slot 8
+        // technically the other condition isn't necessary because of how eating food and the isEmpty() method works
+        if(inventory.getStack(8).isEmpty() || inventory.selectedSlot == 8) return 8; // returns even if the current selected stew/soup is in slot 8
         if(inventory.getStack(17).isEmpty()) return 17; // end of the top row in the inventory
 
         // finds an empty slot starting from the end of the inventory
         for(int i = 35; i>=0; i--) {
-            if(inventory.getStack(i).isEmpty()) return i;
+            if(inventory.getStack(i).isEmpty() && i != inventory.selectedSlot) return i;
         }
 
         // if this returns, the game WILL crash
@@ -76,7 +77,7 @@ public class StewStuffDoer extends Item {
         if(availableBowlSlot != -1) {
             inventory.getStack(availableBowlSlot).increment(1);
             return ItemStack.EMPTY;
-        } else if(inventory.selectedSlot!=8){ // i hate this bug, kinda doesn't make sense
+        } else if(inventory.selectedSlot!=8 && availableEmptySlot != -1){ // i hate this bug, kinda doesn't make sense
             // availableEmptySlot should see that slot 8 is already full of the stew/soup, but it doesn't
             inventory.setStack(availableEmptySlot, new ItemStack(Items.BOWL));
             return ItemStack.EMPTY;
